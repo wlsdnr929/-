@@ -56,7 +56,7 @@ int mostAppearNumber(int n)
 	int flag_1 = 0;
 	for (int i = 0; i < 8001; i++)
 	{
-		// 최대빈도수가 한 번만 나오면
+		// 최대빈도수가 한 번만 나오면, 그 것이 정답
 		if (count_1 == 1)
 		{
 			// 최댓값과 같은 값 찾으면
