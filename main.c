@@ -74,6 +74,7 @@ int mostAppearNumber(int n)
 			}
 
 				// 최대빈도수를 가진 제일 작은 수 만나면
+			        // 배열의 처음부터 돌다가 최대빈도수와 같은 값 만나면, 그것은 제일 작은 
 			if (flag_1==0 && max_same == same_arr[i])
 					flag_1 = 1;
 		}
